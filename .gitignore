@@ -1,0 +1,41 @@
+# Backup files
+*.backup
+*.bak
+*~
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# SSH keys (security)
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local configuration
+config.local
+.env
+.env.local
+
+# Git reset script (local only)
+git_reset_push.sh
